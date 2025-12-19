@@ -1,0 +1,7 @@
+/lib/
+*.exe
+*.dll
+*.o
+*.ppu
+*.compiled
+/modules/
