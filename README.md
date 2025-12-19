@@ -109,7 +109,7 @@ CREATE TABLE IF NOT EXISTS categories (
   created_at TEXT NOT NULL,
   updated_at TEXT
 );
-
+---
 
 As datas são armazenadas em formato ISO 8601, garantindo compatibilidade com APIs e integrações.
 
