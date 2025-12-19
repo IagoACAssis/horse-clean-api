@@ -8,80 +8,269 @@
       <Unit>
         <Filename Value="horse_clean_api.lpr"/>
         <IsPartOfProject Value="True"/>
-        <IsVisibleTab Value="True"/>
-        <CursorPos X="31" Y="16"/>
-        <UsageCount Value="21"/>
-        <Loaded Value="True"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="27" Y="20"/>
+        <UsageCount Value="28"/>
+        <DefaultSyntaxHighlighter Value="Delphi"/>
       </Unit>
       <Unit>
         <Filename Value="presentation\presentation.routes.pas"/>
         <IsPartOfProject Value="True"/>
-        <EditorIndex Value="1"/>
-        <CursorPos X="30" Y="22"/>
-        <UsageCount Value="21"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="11" Y="24"/>
+        <UsageCount Value="28"/>
+        <DefaultSyntaxHighlighter Value="Delphi"/>
+      </Unit>
+      <Unit>
+        <Filename Value="infrastruture\database\infrastructure.database.connection_factory.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="30" Y="16"/>
+        <UsageCount Value="27"/>
+        <DefaultSyntaxHighlighter Value="Delphi"/>
+      </Unit>
+      <Unit>
+        <Filename Value="infrastruture\repositories\infrastructure.repositories.category_repository_sqlite.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="10"/>
+        <CursorPos X="54" Y="32"/>
+        <UsageCount Value="27"/>
+        <DefaultSyntaxHighlighter Value="Delphi"/>
+      </Unit>
+      <Unit>
+        <Filename Value="presentation\controllers\presentation.controllers.category_controller.pas"/>
+        <IsPartOfProject Value="True"/>
+        <IsVisibleTab Value="True"/>
+        <TopLine Value="89"/>
+        <CursorPos X="67" Y="102"/>
+        <UsageCount Value="27"/>
+        <Bookmarks Count="1">
+          <Item0 X="11" Y="87" Left="11" Top="87" ID="1"/>
+        </Bookmarks>
         <Loaded Value="True"/>
+        <DefaultSyntaxHighlighter Value="Delphi"/>
+      </Unit>
+      <Unit>
+        <Filename Value="application\usecases\app.usecases.create_category_usecase.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="25"/>
+        <CursorPos X="15" Y="45"/>
+        <UsageCount Value="27"/>
+        <DefaultSyntaxHighlighter Value="Delphi"/>
+      </Unit>
+      <Unit>
+        <Filename Value="application\dto\app.dto.category_dto.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="38" Y="25"/>
+        <UsageCount Value="27"/>
+        <DefaultSyntaxHighlighter Value="Delphi"/>
+      </Unit>
+      <Unit>
+        <Filename Value="domain\entities\dom.entities.category.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="42"/>
+        <CursorPos X="8" Y="62"/>
+        <UsageCount Value="26"/>
+        <DefaultSyntaxHighlighter Value="Delphi"/>
+      </Unit>
+      <Unit>
+        <Filename Value="domain\repositories\dom.repositories.icategory_repository.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="56" Y="17"/>
+        <UsageCount Value="26"/>
+        <DefaultSyntaxHighlighter Value="Delphi"/>
+      </Unit>
+      <Unit>
+        <Filename Value="domain\entities\domain.entities.category.pas"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="71" Y="17"/>
+        <UsageCount Value="20"/>
+        <DefaultSyntaxHighlighter Value="Delphi"/>
+      </Unit>
+      <Unit>
+        <Filename Value="domain\repositories\domain.repositories.icategory_repository.pas"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="46"/>
+        <UsageCount Value="20"/>
+        <DefaultSyntaxHighlighter Value="Delphi"/>
+      </Unit>
+      <Unit>
+        <Filename Value="application\dto\application.dto.category_dto.pas"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos Y="25"/>
+        <UsageCount Value="19"/>
+        <DefaultSyntaxHighlighter Value="Delphi"/>
+      </Unit>
+      <Unit>
+        <Filename Value="application\usecases\application.usecases.create_category_usecase.pas"/>
+        <UnitName Value="app.usecases.create_category_usecase"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="26" Y="4"/>
+        <UsageCount Value="19"/>
+        <DefaultSyntaxHighlighter Value="Delphi"/>
+      </Unit>
+      <Unit>
+        <Filename Value="..\modules\dataset-serialize\src\DataSet.Serialize.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="144"/>
+        <CursorPos X="52" Y="170"/>
+        <UsageCount Value="10"/>
+        <DefaultSyntaxHighlighter Value="Delphi"/>
+      </Unit>
+      <Unit>
+        <Filename Value="C:\lazarus\fpc\3.2.2\source\packages\fcl-json\src\fpjson.pp"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="588"/>
+        <CursorPos X="14" Y="604"/>
+        <UsageCount Value="10"/>
+      </Unit>
+      <Unit>
+        <Filename Value="application\usecases\application.usecases.get_category_by_id_usecase.pas"/>
+        <UnitName Value="app.usecases.get_category_by_id_usecase"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="37"/>
+        <UsageCount Value="20"/>
+        <DefaultSyntaxHighlighter Value="Delphi"/>
+      </Unit>
+      <Unit>
+        <Filename Value="application\usecases\app.usecases.get_category_by_id_usecase.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="22"/>
+        <CursorPos X="16" Y="48"/>
+        <UsageCount Value="22"/>
+        <DefaultSyntaxHighlighter Value="Delphi"/>
+      </Unit>
+      <Unit>
+        <Filename Value="C:\lazarus\fpc\3.2.2\source\packages\fcl-db\src\sqldb\sqlite\sqlite3conn.pp"/>
+        <UnitName Value="SQLite3Conn"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="105"/>
+        <CursorPos X="14" Y="120"/>
+        <UsageCount Value="10"/>
+      </Unit>
+      <Unit>
+        <Filename Value="application\usecases\app.usecases.update_category_usecase.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="9"/>
+        <CursorPos X="11" Y="31"/>
+        <UsageCount Value="22"/>
+        <DefaultSyntaxHighlighter Value="Delphi"/>
+      </Unit>
+      <Unit>
+        <Filename Value="C:\lazarus\fpc\3.2.2\source\rtl\inc\objpash.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="189"/>
+        <CursorPos X="23" Y="206"/>
+        <UsageCount Value="10"/>
+      </Unit>
+      <Unit>
+        <Filename Value="application\usecases\app.usecases.disable_category_usecase.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="37" Y="34"/>
+        <UsageCount Value="20"/>
+        <DefaultSyntaxHighlighter Value="Delphi"/>
+      </Unit>
+      <Unit>
+        <Filename Value="application\usecases\app.usecases.enable_category_usecase.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="42"/>
+        <UsageCount Value="20"/>
+        <DefaultSyntaxHighlighter Value="Delphi"/>
       </Unit>
     </Units>
-    <JumpHistory HistoryIndex="14">
+    <JumpHistory HistoryIndex="20">
       <Position>
-        <Filename Value="horse_clean_api.lpr"/>
-        <Caret Line="5" Column="50"/>
+        <Filename Value="presentation\controllers\presentation.controllers.category_controller.pas"/>
+        <Caret Line="177" Column="43" TopLine="147"/>
       </Position>
       <Position>
-        <Filename Value="presentation\presentation.routes.pas"/>
-        <Caret Line="25"/>
+        <Filename Value="presentation\controllers\presentation.controllers.category_controller.pas"/>
+        <Caret Line="90" Column="36" TopLine="143"/>
       </Position>
       <Position>
-        <Filename Value="horse_clean_api.lpr"/>
-        <Caret Line="8" Column="23"/>
+        <Filename Value="presentation\controllers\presentation.controllers.category_controller.pas"/>
+        <Caret Line="142" Column="41" TopLine="126"/>
       </Position>
       <Position>
-        <Filename Value="horse_clean_api.lpr"/>
-        <Caret Line="19"/>
+        <Filename Value="presentation\controllers\presentation.controllers.category_controller.pas"/>
+        <Caret Line="142" Column="41" TopLine="129"/>
       </Position>
       <Position>
-        <Filename Value="horse_clean_api.lpr"/>
-        <Caret Line="9" Column="17"/>
+        <Filename Value="presentation\controllers\presentation.controllers.category_controller.pas"/>
+        <Caret Line="142" Column="41" TopLine="147"/>
       </Position>
       <Position>
-        <Filename Value="horse_clean_api.lpr"/>
-        <Caret Line="10" Column="40"/>
+        <Filename Value="presentation\controllers\presentation.controllers.category_controller.pas"/>
+        <Caret Line="90" Column="40" TopLine="75"/>
       </Position>
       <Position>
-        <Filename Value="horse_clean_api.lpr"/>
-        <Caret Line="16" Column="25"/>
+        <Filename Value="presentation\controllers\presentation.controllers.category_controller.pas"/>
+        <Caret Line="174" Column="38" TopLine="147"/>
       </Position>
       <Position>
-        <Filename Value="horse_clean_api.lpr"/>
-        <Caret Line="19" Column="55"/>
+        <Filename Value="presentation\controllers\presentation.controllers.category_controller.pas"/>
+        <Caret Line="87" Column="25" TopLine="120"/>
       </Position>
       <Position>
-        <Filename Value="horse_clean_api.lpr"/>
-        <Caret Line="9" Column="15"/>
+        <Filename Value="presentation\controllers\presentation.controllers.category_controller.pas"/>
+        <Caret Line="87" Column="25" TopLine="147"/>
       </Position>
       <Position>
-        <Filename Value="presentation\presentation.routes.pas"/>
-        <Caret Line="21" Column="48"/>
+        <Filename Value="presentation\controllers\presentation.controllers.category_controller.pas"/>
+        <Caret Line="11" Column="11" TopLine="147"/>
       </Position>
       <Position>
-        <Filename Value="presentation\presentation.routes.pas"/>
-        <Caret Line="10" Column="35"/>
+        <Filename Value="presentation\controllers\presentation.controllers.category_controller.pas"/>
+        <Caret Line="11" Column="11" TopLine="147"/>
       </Position>
       <Position>
-        <Filename Value="presentation\presentation.routes.pas"/>
-        <Caret Line="17" Column="7"/>
+        <Filename Value="presentation\controllers\presentation.controllers.category_controller.pas"/>
+        <Caret Line="89" Column="31" TopLine="75"/>
       </Position>
       <Position>
-        <Filename Value="horse_clean_api.lpr"/>
-        <Caret Line="6" Column="31"/>
+        <Filename Value="presentation\controllers\presentation.controllers.category_controller.pas"/>
+        <Caret Line="151" Column="74" TopLine="127"/>
       </Position>
       <Position>
-        <Filename Value="presentation\presentation.routes.pas"/>
-        <Caret Line="21" Column="26"/>
+        <Filename Value="presentation\controllers\presentation.controllers.category_controller.pas"/>
+        <Caret Line="126" Column="3" TopLine="109"/>
       </Position>
       <Position>
-        <Filename Value="presentation\presentation.routes.pas"/>
-        <Caret Line="22" Column="30"/>
+        <Filename Value="presentation\controllers\presentation.controllers.category_controller.pas"/>
+        <Caret Line="220" Column="70" TopLine="199"/>
+      </Position>
+      <Position>
+        <Filename Value="presentation\controllers\presentation.controllers.category_controller.pas"/>
+        <Caret Line="24" Column="41" TopLine="7"/>
+      </Position>
+      <Position>
+        <Filename Value="presentation\controllers\presentation.controllers.category_controller.pas"/>
+        <Caret Line="183" Column="63" TopLine="156"/>
+      </Position>
+      <Position>
+        <Filename Value="presentation\controllers\presentation.controllers.category_controller.pas"/>
+        <Caret Line="231" Column="50" TopLine="203"/>
+      </Position>
+      <Position>
+        <Filename Value="presentation\controllers\presentation.controllers.category_controller.pas"/>
+        <Caret Line="208" Column="36" TopLine="188"/>
+      </Position>
+      <Position>
+        <Filename Value="presentation\controllers\presentation.controllers.category_controller.pas"/>
+        <Caret Line="103" Column="73" TopLine="92"/>
+      </Position>
+      <Position>
+        <Filename Value="presentation\controllers\presentation.controllers.category_controller.pas"/>
+        <Caret Line="104" Column="13" TopLine="89"/>
       </Position>
     </JumpHistory>
     <RunParams>

@@ -14,7 +14,6 @@ begin
   THorse.Use(CORS);
   THorse.Use(Jhonson());
 
-
   RegisterRoutes;
 
   Writeln('API rodando em http://localhost:9000');

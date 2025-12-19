@@ -33,6 +33,50 @@
         <Filename Value="presentation\presentation.routes.pas"/>
         <IsPartOfProject Value="True"/>
       </Unit>
+      <Unit>
+        <Filename Value="infrastruture\database\infrastructure.database.connection_factory.pas"/>
+        <IsPartOfProject Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="infrastruture\repositories\infrastructure.repositories.category_repository_sqlite.pas"/>
+        <IsPartOfProject Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="presentation\controllers\presentation.controllers.category_controller.pas"/>
+        <IsPartOfProject Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="application\usecases\app.usecases.create_category_usecase.pas"/>
+        <IsPartOfProject Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="application\dto\app.dto.category_dto.pas"/>
+        <IsPartOfProject Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="domain\entities\dom.entities.category.pas"/>
+        <IsPartOfProject Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="domain\repositories\dom.repositories.icategory_repository.pas"/>
+        <IsPartOfProject Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="application\usecases\app.usecases.get_category_by_id_usecase.pas"/>
+        <IsPartOfProject Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="application\usecases\app.usecases.update_category_usecase.pas"/>
+        <IsPartOfProject Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="application\usecases\app.usecases.disable_category_usecase.pas"/>
+        <IsPartOfProject Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="application\usecases\app.usecases.enable_category_usecase.pas"/>
+        <IsPartOfProject Value="True"/>
+      </Unit>
     </Units>
   </ProjectOptions>
   <CompilerOptions>
@@ -43,9 +87,14 @@
     </Target>
     <SearchPaths>
       <IncludeFiles Value="$(ProjOutDir)"/>
-      <OtherUnitFiles Value="..\modules\horse\src;..\modules\horse-cors\src;..\modules\jhonson\src;presentation"/>
+      <OtherUnitFiles Value="..\modules\horse\src;..\modules\horse-cors\src;..\modules\jhonson\src;presentation;infrastruture\database;infrastruture\repositories;presentation\controllers;application\usecases;application\dto;domain\entities;domain\repositories;..\modules\dataset-serialize\src"/>
       <UnitOutputDirectory Value="lib\$(TargetCPU)-$(TargetOS)"/>
     </SearchPaths>
+    <Parsing>
+      <SyntaxOptions>
+        <SyntaxMode Value="Delphi"/>
+      </SyntaxOptions>
+    </Parsing>
     <Linking>
       <Debugging>
         <DebugInfoType Value="dsDwarf3"/>

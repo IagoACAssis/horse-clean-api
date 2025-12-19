@@ -9,7 +9,8 @@ procedure RegisterRoutes;
 implementation
 
 uses
-  Horse;
+  Horse,
+  presentation.controllers.category_controller;
 
 
 procedure Health(Req: THorseRequest; Res: THorseResponse; Next: TNextProc);
@@ -20,6 +21,8 @@ end;
 procedure RegisterRoutes;
 begin
   THorse.Get('/health', Health);
+
+  RegisterCategoryRoutes;
 end;
 
 end.
