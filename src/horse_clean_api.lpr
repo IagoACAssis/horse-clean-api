@@ -8,7 +8,7 @@ uses
   Horse.CORS,
   Horse.Jhonson,
   SysUtils,
-  presentation.routes;
+  presentation.routes, app.usecases.list_categories_usecase;
 
 begin
   THorse.Use(CORS);

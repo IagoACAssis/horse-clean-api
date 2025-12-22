@@ -192,10 +192,52 @@ begin
   end;
 end;
 
+
 function TCategoryRepositorySQLite.FindAll: TObjectList<TCategory>;
+var
+  Query: TSQLQuery;
+  Category: TCategory;
 begin
-  Result := TObjectList<TCategory>.Create;
+  Result := TObjectList<TCategory>.Create(True);
+
+  Query := TSQLQuery.Create(nil);
+  try
+    Query.DataBase := FConnection;
+    Query.Transaction := FTransaction;
+
+    Query.SQL.Text :=
+      'SELECT id, nome, descricao, ativo, created_at, updated_at ' +
+      'FROM categories';
+
+    Query.Open;
+
+    while not Query.EOF do
+    begin
+      Category := TCategory.Create(
+        Query.FieldByName('nome').AsString,
+        Query.FieldByName('descricao').AsString
+      );
+
+      Category.Id := Query.FieldByName('id').AsInteger;
+
+      if Query.FieldByName('ativo').AsInteger = 0 then
+        Category.Desativar;
+
+      Category.CriadoEm :=
+        StringToDateTimeISO(Query.FieldByName('created_at').AsString);
+
+      if not Query.FieldByName('updated_at').IsNull then
+        Category.AtualizadoEm :=
+          StringToDateTimeISO(Query.FieldByName('updated_at').AsString);
+
+      Result.Add(Category);
+      Query.Next;
+    end;
+  finally
+    Query.Free;
+  end;
 end;
+
 
 procedure TCategoryRepositorySQLite.Delete(AId: Integer);
 begin

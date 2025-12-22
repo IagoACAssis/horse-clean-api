@@ -10,7 +10,7 @@
         <IsPartOfProject Value="True"/>
         <EditorIndex Value="-1"/>
         <CursorPos X="27" Y="20"/>
-        <UsageCount Value="28"/>
+        <UsageCount Value="32"/>
         <DefaultSyntaxHighlighter Value="Delphi"/>
       </Unit>
       <Unit>
@@ -18,35 +18,36 @@
         <IsPartOfProject Value="True"/>
         <EditorIndex Value="-1"/>
         <CursorPos X="11" Y="24"/>
-        <UsageCount Value="28"/>
+        <UsageCount Value="32"/>
         <DefaultSyntaxHighlighter Value="Delphi"/>
       </Unit>
       <Unit>
         <Filename Value="infrastruture\database\infrastructure.database.connection_factory.pas"/>
         <IsPartOfProject Value="True"/>
         <EditorIndex Value="-1"/>
-        <CursorPos X="30" Y="16"/>
-        <UsageCount Value="27"/>
-        <DefaultSyntaxHighlighter Value="Delphi"/>
+        <CursorPos X="52" Y="25"/>
+        <UsageCount Value="31"/>
       </Unit>
       <Unit>
         <Filename Value="infrastruture\repositories\infrastructure.repositories.category_repository_sqlite.pas"/>
         <IsPartOfProject Value="True"/>
-        <EditorIndex Value="-1"/>
-        <TopLine Value="10"/>
-        <CursorPos X="54" Y="32"/>
-        <UsageCount Value="27"/>
+        <EditorIndex Value="3"/>
+        <TopLine Value="70"/>
+        <CursorPos X="10" Y="41"/>
+        <UsageCount Value="31"/>
+        <Loaded Value="True"/>
         <DefaultSyntaxHighlighter Value="Delphi"/>
       </Unit>
       <Unit>
         <Filename Value="presentation\controllers\presentation.controllers.category_controller.pas"/>
         <IsPartOfProject Value="True"/>
-        <IsVisibleTab Value="True"/>
-        <TopLine Value="89"/>
-        <CursorPos X="67" Y="102"/>
-        <UsageCount Value="27"/>
-        <Bookmarks Count="1">
-          <Item0 X="11" Y="87" Left="11" Top="87" ID="1"/>
+        <EditorIndex Value="5"/>
+        <TopLine Value="195"/>
+        <CursorPos Y="206"/>
+        <UsageCount Value="31"/>
+        <Bookmarks Count="2">
+          <Item0 X="14" Y="89" Left="1" Top="85" ID="1"/>
+          <Item1 Y="195" Left="1" Top="174" ID="2"/>
         </Bookmarks>
         <Loaded Value="True"/>
         <DefaultSyntaxHighlighter Value="Delphi"/>
@@ -57,32 +58,68 @@
         <EditorIndex Value="-1"/>
         <TopLine Value="25"/>
         <CursorPos X="15" Y="45"/>
-        <UsageCount Value="27"/>
+        <UsageCount Value="31"/>
         <DefaultSyntaxHighlighter Value="Delphi"/>
       </Unit>
       <Unit>
         <Filename Value="application\dto\app.dto.category_dto.pas"/>
         <IsPartOfProject Value="True"/>
-        <EditorIndex Value="-1"/>
-        <CursorPos X="38" Y="25"/>
-        <UsageCount Value="27"/>
+        <EditorIndex Value="6"/>
+        <CursorPos X="5" Y="17"/>
+        <UsageCount Value="31"/>
+        <Loaded Value="True"/>
         <DefaultSyntaxHighlighter Value="Delphi"/>
       </Unit>
       <Unit>
         <Filename Value="domain\entities\dom.entities.category.pas"/>
         <IsPartOfProject Value="True"/>
-        <EditorIndex Value="-1"/>
-        <TopLine Value="42"/>
-        <CursorPos X="8" Y="62"/>
-        <UsageCount Value="26"/>
+        <EditorIndex Value="4"/>
+        <CursorPos X="13" Y="18"/>
+        <UsageCount Value="30"/>
+        <Loaded Value="True"/>
         <DefaultSyntaxHighlighter Value="Delphi"/>
       </Unit>
       <Unit>
         <Filename Value="domain\repositories\dom.repositories.icategory_repository.pas"/>
         <IsPartOfProject Value="True"/>
+        <EditorIndex Value="2"/>
+        <CursorPos X="14" Y="19"/>
+        <UsageCount Value="30"/>
+        <Loaded Value="True"/>
+        <DefaultSyntaxHighlighter Value="Delphi"/>
+      </Unit>
+      <Unit>
+        <Filename Value="application\usecases\app.usecases.get_category_by_id_usecase.pas"/>
+        <IsPartOfProject Value="True"/>
         <EditorIndex Value="-1"/>
-        <CursorPos X="56" Y="17"/>
+        <CursorPos X="71" Y="38"/>
         <UsageCount Value="26"/>
+        <DefaultSyntaxHighlighter Value="Delphi"/>
+      </Unit>
+      <Unit>
+        <Filename Value="application\usecases\app.usecases.update_category_usecase.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="9"/>
+        <CursorPos X="11" Y="31"/>
+        <UsageCount Value="25"/>
+        <DefaultSyntaxHighlighter Value="Delphi"/>
+      </Unit>
+      <Unit>
+        <Filename Value="application\usecases\app.usecases.disable_category_usecase.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="37" Y="34"/>
+        <UsageCount Value="24"/>
+        <DefaultSyntaxHighlighter Value="Delphi"/>
+      </Unit>
+      <Unit>
+        <Filename Value="application\usecases\app.usecases.enable_category_usecase.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="1"/>
+        <CursorPos X="31" Y="26"/>
+        <UsageCount Value="24"/>
+        <Loaded Value="True"/>
         <DefaultSyntaxHighlighter Value="Delphi"/>
       </Unit>
       <Unit>
@@ -119,7 +156,7 @@
         <EditorIndex Value="-1"/>
         <TopLine Value="144"/>
         <CursorPos X="52" Y="170"/>
-        <UsageCount Value="10"/>
+        <UsageCount Value="9"/>
         <DefaultSyntaxHighlighter Value="Delphi"/>
       </Unit>
       <Unit>
@@ -127,7 +164,7 @@
         <EditorIndex Value="-1"/>
         <TopLine Value="588"/>
         <CursorPos X="14" Y="604"/>
-        <UsageCount Value="10"/>
+        <UsageCount Value="9"/>
       </Unit>
       <Unit>
         <Filename Value="application\usecases\application.usecases.get_category_by_id_usecase.pas"/>
@@ -135,15 +172,6 @@
         <EditorIndex Value="-1"/>
         <CursorPos X="37"/>
         <UsageCount Value="20"/>
-        <DefaultSyntaxHighlighter Value="Delphi"/>
-      </Unit>
-      <Unit>
-        <Filename Value="application\usecases\app.usecases.get_category_by_id_usecase.pas"/>
-        <IsPartOfProject Value="True"/>
-        <EditorIndex Value="-1"/>
-        <TopLine Value="22"/>
-        <CursorPos X="16" Y="48"/>
-        <UsageCount Value="22"/>
         <DefaultSyntaxHighlighter Value="Delphi"/>
       </Unit>
       <Unit>
@@ -155,15 +183,6 @@
         <UsageCount Value="10"/>
       </Unit>
       <Unit>
-        <Filename Value="application\usecases\app.usecases.update_category_usecase.pas"/>
-        <IsPartOfProject Value="True"/>
-        <EditorIndex Value="-1"/>
-        <TopLine Value="9"/>
-        <CursorPos X="11" Y="31"/>
-        <UsageCount Value="22"/>
-        <DefaultSyntaxHighlighter Value="Delphi"/>
-      </Unit>
-      <Unit>
         <Filename Value="C:\lazarus\fpc\3.2.2\source\rtl\inc\objpash.inc"/>
         <EditorIndex Value="-1"/>
         <TopLine Value="189"/>
@@ -171,106 +190,136 @@
         <UsageCount Value="10"/>
       </Unit>
       <Unit>
-        <Filename Value="application\usecases\app.usecases.disable_category_usecase.pas"/>
+        <Filename Value="application\usecases\app.usecases.list_categories_usecase.pas"/>
         <IsPartOfProject Value="True"/>
-        <EditorIndex Value="-1"/>
-        <CursorPos X="37" Y="34"/>
-        <UsageCount Value="20"/>
-        <DefaultSyntaxHighlighter Value="Delphi"/>
-      </Unit>
-      <Unit>
-        <Filename Value="application\usecases\app.usecases.enable_category_usecase.pas"/>
-        <IsPartOfProject Value="True"/>
-        <EditorIndex Value="-1"/>
-        <CursorPos X="42"/>
-        <UsageCount Value="20"/>
+        <IsVisibleTab Value="True"/>
+        <TopLine Value="4"/>
+        <CursorPos X="30" Y="36"/>
+        <UsageCount Value="23"/>
+        <Loaded Value="True"/>
         <DefaultSyntaxHighlighter Value="Delphi"/>
       </Unit>
     </Units>
-    <JumpHistory HistoryIndex="20">
+    <JumpHistory HistoryIndex="29">
       <Position>
         <Filename Value="presentation\controllers\presentation.controllers.category_controller.pas"/>
-        <Caret Line="177" Column="43" TopLine="147"/>
+        <Caret Line="26" Column="39" TopLine="6"/>
       </Position>
       <Position>
         <Filename Value="presentation\controllers\presentation.controllers.category_controller.pas"/>
-        <Caret Line="90" Column="36" TopLine="143"/>
+        <Caret Line="243" Column="19" TopLine="223"/>
       </Position>
       <Position>
         <Filename Value="presentation\controllers\presentation.controllers.category_controller.pas"/>
-        <Caret Line="142" Column="41" TopLine="126"/>
+        <Caret Line="248" Column="48" TopLine="211"/>
       </Position>
       <Position>
         <Filename Value="presentation\controllers\presentation.controllers.category_controller.pas"/>
-        <Caret Line="142" Column="41" TopLine="129"/>
+        <Caret Line="243" Column="20" TopLine="223"/>
       </Position>
       <Position>
         <Filename Value="presentation\controllers\presentation.controllers.category_controller.pas"/>
-        <Caret Line="142" Column="41" TopLine="147"/>
+        <Caret Line="232" Column="47" TopLine="211"/>
       </Position>
       <Position>
         <Filename Value="presentation\controllers\presentation.controllers.category_controller.pas"/>
-        <Caret Line="90" Column="40" TopLine="75"/>
+        <Caret Line="241" Column="38" TopLine="220"/>
       </Position>
       <Position>
         <Filename Value="presentation\controllers\presentation.controllers.category_controller.pas"/>
-        <Caret Line="174" Column="38" TopLine="147"/>
+        <Caret Line="245" Column="19" TopLine="220"/>
       </Position>
       <Position>
         <Filename Value="presentation\controllers\presentation.controllers.category_controller.pas"/>
-        <Caret Line="87" Column="25" TopLine="120"/>
+        <Caret Line="249" Column="17" TopLine="230"/>
       </Position>
       <Position>
         <Filename Value="presentation\controllers\presentation.controllers.category_controller.pas"/>
-        <Caret Line="87" Column="25" TopLine="147"/>
+        <Caret Line="242" Column="22" TopLine="219"/>
       </Position>
       <Position>
         <Filename Value="presentation\controllers\presentation.controllers.category_controller.pas"/>
-        <Caret Line="11" Column="11" TopLine="147"/>
+        <Caret Line="232" Column="14" TopLine="211"/>
       </Position>
       <Position>
         <Filename Value="presentation\controllers\presentation.controllers.category_controller.pas"/>
-        <Caret Line="11" Column="11" TopLine="147"/>
+        <Caret Line="244" Column="23" TopLine="221"/>
       </Position>
       <Position>
         <Filename Value="presentation\controllers\presentation.controllers.category_controller.pas"/>
-        <Caret Line="89" Column="31" TopLine="75"/>
+        <Caret Line="251" Column="27" TopLine="224"/>
       </Position>
       <Position>
         <Filename Value="presentation\controllers\presentation.controllers.category_controller.pas"/>
-        <Caret Line="151" Column="74" TopLine="127"/>
+        <Caret Line="252" Column="70" TopLine="224"/>
       </Position>
       <Position>
         <Filename Value="presentation\controllers\presentation.controllers.category_controller.pas"/>
-        <Caret Line="126" Column="3" TopLine="109"/>
+        <Caret Line="240" Column="30" TopLine="215"/>
+      </Position>
+      <Position>
+        <Filename Value="application\usecases\app.usecases.list_categories_usecase.pas"/>
+        <Caret Line="45" Column="52" TopLine="27"/>
+      </Position>
+      <Position>
+        <Filename Value="infrastruture\repositories\infrastructure.repositories.category_repository_sqlite.pas"/>
+        <Caret Line="195" Column="62" TopLine="181"/>
+      </Position>
+      <Position>
+        <Filename Value="infrastruture\repositories\infrastructure.repositories.category_repository_sqlite.pas"/>
+        <Caret Line="223" Column="61" TopLine="206"/>
+      </Position>
+      <Position>
+        <Filename Value="infrastruture\repositories\infrastructure.repositories.category_repository_sqlite.pas"/>
+        <Caret Line="226" Column="34" TopLine="194"/>
+      </Position>
+      <Position>
+        <Filename Value="infrastruture\repositories\infrastructure.repositories.category_repository_sqlite.pas"/>
+        <Caret Line="154" Column="74" TopLine="149"/>
+      </Position>
+      <Position>
+        <Filename Value="domain\entities\dom.entities.category.pas"/>
+        <Caret Line="18" Column="13"/>
+      </Position>
+      <Position>
+        <Filename Value="infrastruture\repositories\infrastructure.repositories.category_repository_sqlite.pas"/>
+        <Caret Line="232" Column="38" TopLine="206"/>
+      </Position>
+      <Position>
+        <Filename Value="infrastruture\repositories\infrastructure.repositories.category_repository_sqlite.pas"/>
+        <Caret Line="41" Column="10" TopLine="70"/>
+      </Position>
+      <Position>
+        <Filename Value="application\usecases\app.usecases.list_categories_usecase.pas"/>
+        <Caret Line="34" Column="23" TopLine="18"/>
+      </Position>
+      <Position>
+        <Filename Value="application\usecases\app.usecases.list_categories_usecase.pas"/>
+        <Caret Line="20" Column="7" TopLine="18"/>
+      </Position>
+      <Position>
+        <Filename Value="domain\repositories\dom.repositories.icategory_repository.pas"/>
+        <Caret Line="19" Column="14"/>
+      </Position>
+      <Position>
+        <Filename Value="application\usecases\app.usecases.list_categories_usecase.pas"/>
+        <Caret Line="43" Column="68" TopLine="27"/>
       </Position>
       <Position>
         <Filename Value="presentation\controllers\presentation.controllers.category_controller.pas"/>
-        <Caret Line="220" Column="70" TopLine="199"/>
+        <Caret Line="204" Column="58" TopLine="195"/>
       </Position>
       <Position>
         <Filename Value="presentation\controllers\presentation.controllers.category_controller.pas"/>
-        <Caret Line="24" Column="41" TopLine="7"/>
+        <Caret Line="205" TopLine="195"/>
       </Position>
       <Position>
         <Filename Value="presentation\controllers\presentation.controllers.category_controller.pas"/>
-        <Caret Line="183" Column="63" TopLine="156"/>
+        <Caret Line="206" TopLine="195"/>
       </Position>
       <Position>
-        <Filename Value="presentation\controllers\presentation.controllers.category_controller.pas"/>
-        <Caret Line="231" Column="50" TopLine="203"/>
-      </Position>
-      <Position>
-        <Filename Value="presentation\controllers\presentation.controllers.category_controller.pas"/>
-        <Caret Line="208" Column="36" TopLine="188"/>
-      </Position>
-      <Position>
-        <Filename Value="presentation\controllers\presentation.controllers.category_controller.pas"/>
-        <Caret Line="103" Column="73" TopLine="92"/>
-      </Position>
-      <Position>
-        <Filename Value="presentation\controllers\presentation.controllers.category_controller.pas"/>
-        <Caret Line="104" Column="13" TopLine="89"/>
+        <Filename Value="application\usecases\app.usecases.list_categories_usecase.pas"/>
+        <Caret Line="45" TopLine="21"/>
       </Position>
     </JumpHistory>
     <RunParams>
@@ -278,4 +327,22 @@
       <Modes ActiveMode=""/>
     </RunParams>
   </ProjectSession>
+  <Debugging>
+    <BreakPoints>
+      <Item>
+        <Kind Value="bpkSource"/>
+        <WatchScope Value="wpsLocal"/>
+        <WatchKind Value="wpkWrite"/>
+        <Source Value="application\usecases\app.usecases.list_categories_usecase.pas"/>
+        <Line Value="47"/>
+      </Item>
+      <Item>
+        <Kind Value="bpkSource"/>
+        <WatchScope Value="wpsLocal"/>
+        <WatchKind Value="wpkWrite"/>
+        <Source Value="presentation\controllers\presentation.controllers.category_controller.pas"/>
+        <Line Value="204"/>
+      </Item>
+    </BreakPoints>
+  </Debugging>
 </CONFIG>

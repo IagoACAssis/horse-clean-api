@@ -77,6 +77,10 @@
         <Filename Value="application\usecases\app.usecases.enable_category_usecase.pas"/>
         <IsPartOfProject Value="True"/>
       </Unit>
+      <Unit>
+        <Filename Value="application\usecases\app.usecases.list_categories_usecase.pas"/>
+        <IsPartOfProject Value="True"/>
+      </Unit>
     </Units>
   </ProjectOptions>
   <CompilerOptions>
